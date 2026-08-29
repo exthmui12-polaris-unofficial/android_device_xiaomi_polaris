@@ -20,6 +20,8 @@ TARGET_KERNEL_SOURCE := kernel/xiaomi/polaris
 TARGET_KERNEL_CONFIG := polaris_defconfig
 TARGET_KERNEL_CLANG_VERSION := prelude
 KERNEL_TOOLCHAIN := $(shell pwd)/prebuilts/clang/host/linux-x86/clang-prelude/bin
+KERNEL_TOOLCHAIN_PREFIX := aarch64-linux-gnu-
+KERNEL_LD := LD=ld.lld
 KERNEL_SUPPORTS_LLVM_TOOLS := true
 
 # HIDL
