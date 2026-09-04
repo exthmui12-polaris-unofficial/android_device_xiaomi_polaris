@@ -1,5 +1,8 @@
 # exTHmUI 12 product configuration for Xiaomi Mi MIX 2S (polaris)
 
+# Default to the GApps-compatible branch; set EXTHM_GAPPS=false for Vanilla.
+EXTHM_GAPPS ?= true
+
 # Required by exTHmUI build/version/BoardConfig hooks.
 EXTHM_BUILD := polaris
 
